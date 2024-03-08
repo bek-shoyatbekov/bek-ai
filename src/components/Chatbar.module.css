@@ -1,0 +1,49 @@
+.chatbar {
+  display: flex;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 1rem;
+  border-radius: 4px;
+  position: fixed; /* Make the chat bar fixed to the viewport */
+  bottom: 2rem; /* Position it slightly above the bottom */
+  left: 0; /* Align it to the left */
+  right: 0; /* Stretch it to the right edge */
+}
+
+.chatInput {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.sendButton {
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1.4rem;
+  border-radius: 20px;
+  background-color: #646cff;
+  color: #fff;
+}
+
+.sendButton:hover {
+  background-color: #535bf2;
+}
+
+.footnote {
+  display: block;
+  position: fixed;
+  font-size: 0.8rem;
+  color: #666;
+  bottom: 0;
+
+  /* Centering styles */
+  left: 50%;
+  transform: translateX(-50%);
+}

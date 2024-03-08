@@ -1,0 +1,5 @@
+.chat-container {
+  display: flex; /* Allow stacking MessageList and Chatbar */
+  flex-direction: column;
+  height: 100vh; /* Occupy full viewport height */
+}

@@ -1,0 +1,36 @@
+.message-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow: auto; /* Add overflow: auto for scrolling */
+  max-height: 40vh;
+  padding-bottom: 0rem; /* Adjust as needed */
+}
+
+.message-list li {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 4px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.sent-message {
+  background-color: #e0f2f1;
+  color: #333;
+}
+
+.received-message {
+  background-color: #fff;
+  color: #666;
+}
+
+.sender {
+  font-weight: bold;
+  margin-right: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.message-list p {
+  margin: 0;
+}

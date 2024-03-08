@@ -1,0 +1,10 @@
+.header {
+  text-align: center; /* Center the content within the header */
+  padding: 1rem; /* Add some padding for spacing */
+  background-color: #f0f0f0; /* Optional background color */
+}
+
+.title {
+  margin: 0; /* Remove default margin from heading */
+  font-size: 1.5rem; /* Adjust font size as desired */
+}
